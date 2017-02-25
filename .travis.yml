@@ -8,4 +8,4 @@ os:
   - linux
   - osx
 
-script: make && make test
+script: cd ref-c && make && make test
