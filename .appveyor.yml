@@ -1,0 +1,25 @@
+os: Visual Studio 2015
+
+environment:
+  matrix:
+    - platform: x86
+      configuration: Debug
+    - platform: x86
+      configuration: Release
+    - platform: x64
+      configuration: Debug
+    - platform: x64
+      configuration: Release
+
+matrix:
+  fast_finish: false
+
+build:
+  parallel: true
+  project: ref-c\visual-studio\sparx.sln
+  verbosity: minimal
+
+after_build:
+  - ref-c\visual-studio\build\sparx_64_128.exe
+  - ref-c\visual-studio\build\sparx_128_128.exe
+  - ref-c\visual-studio\build\sparx_128_256.exe

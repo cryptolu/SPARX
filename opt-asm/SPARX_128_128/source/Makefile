@@ -1,0 +1,29 @@
+#
+# SPARX source code package
+#
+# Copyright (C) 2016, 2017 CryptoLUX (https://www.cryptolux.org)
+#
+# Written by Daniel Dinu <dumitru-daniel.dinu@uni.lu>
+#
+# You may use this work under the terms of a Creative Commons CC0 1.0
+# License/Waiver or the Apache Public License 2.0, at your option. The terms of
+# these licenses can be found at:
+#
+# - CC0 1.0 Universal : http://creativecommons.org/publicdomain/zero/1.0
+# - Apache 2.0        : http://www.apache.org/licenses/LICENSE-2.0
+#
+# You should have received a copy of both of these licenses along with this
+# software. If not, they may be obtained at the above URLs.
+#
+
+#
+# Call this makefile from a cipher source directory or build directory to build 
+# ... the cipher in different settings.
+# For more information see CIPHER_MAKEFILE
+#
+
+
+CIPHER_MAKEFILE=./../../../common/test_cipher.mk
+
+
+include $(CIPHER_MAKEFILE)
