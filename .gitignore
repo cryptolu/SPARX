@@ -3,6 +3,7 @@ ref-c/sparx_128_128
 ref-c/sparx_128_256
 
 ref-c/visual-studio/build
+ref-c/visual-studio/.vs/
 sparx.VC.sdf
 sparx.VC.VC.opendb
 
