@@ -5,6 +5,7 @@ ref-c/sparx_128_256
 ref-c/visual-studio/build
 ref-c/visual-studio/.vs/
 sparx.VC.sdf
+sparx.VC.db
 sparx.VC.VC.opendb
 
 .DS_Store
